@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react"
 
 export default defineConfig({
   plugins: [react()],
-  base: "/vending-machine/", // replace with your repository name
+  base: "/", // replace with your repository name
 })
