@@ -8,6 +8,7 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://rambacs.github.io/",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
