@@ -63,22 +63,14 @@
       border-radius: 12px;
       font-size: 1rem;
       font-weight: 600;
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: #020617;
       transition: transform 0.15s ease, box-shadow 0.15s ease;
-    }
-
-    .vending {
-      background: linear-gradient(135deg, var(--primary), #5da9ff);
-      color: #020617;
-    }
-
-    .barf {
-      background: linear-gradient(135deg, var(--secondary), #847cff);
-      color: #020617;
     }
 
     a:hover {
       transform: translateY(-2px);
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+      box-shadow: 0 8px 20px rgba(132, 124, 255, 0.3);
     }
 
     footer {
@@ -94,11 +86,14 @@
     <p>Select where you want to go</p>
 
     <div class="buttons">
-      <a class="vending" href="https://rambacs.github.io/vending-machine">
+      <a href="https://rambacs.github.io/vending-machine">
         ☕️ Vending Machine
       </a>
-      <a class="barf" href="https://rambacs.github.io/barf-calculator">
+      <a href="https://rambacs.github.io/barf-calculator">
         🐾 BARF Calculator
+      </a>
+      <a href="https://apitester-w5mt.onrender.com/">
+        🧪 API Tester
       </a>
     </div>
 
